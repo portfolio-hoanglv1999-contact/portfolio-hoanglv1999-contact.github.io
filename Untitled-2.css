@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+	background-color: #efefef;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.noisy-effect-background{
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("noise.gif") ;
+    background-size: 100px 100px;
+    opacity: .26;
+	z-index: -1;
+}
+
+.cursorpoint{
+	cursor:pointer!important;
+}
+
+.hover--orangeredcolor:hover{
+	color:orangered;
+	transition: color 1s;
+}
+
+.hover--translate:hover{
+	color:orangered;
+	animation: bienmat--phongto 1s forwards;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+
+@keyframes xuathien {
+	0%{opacity:0}
+	100%{opacity:1}
+}
+@keyframes bienmat {
+	0%{opacity:1}
+	100%{opacity:0.5}
+}
+@keyframes bienmat--phongto {
+	0%{opacity:1;
+	 transform:scale(1) translateY(0)}
+	
+	100%{opacity:1;
+	 transform: scale(1.1) translateY(-20px);}
+}
+.container{
+	height:130vh;
+}
+.content1{
+	height:150px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	/*background-image:url(https://i.pinimg.com/originals/69/42/86/69428697bde97422aa5b22d733db0810.gif);
+	background-position: center;
+	background-size:contain;*/
+}
+.content1__navbar1{
+	height:200px;
+	width:100%;
+	position:fixed;
+	z-index: 10000000;
+}
+.paddingnoidunglai{
+	padding:60px 80px;
+	
+}
+.paddingcanhnhauthemxiu{
+	padding:10px;
+}
+.content1__navbar1--nav{
+	display: flex;
+	justify-content:flex-start;
+	align-items:center;
+	
+	background-color:none;
+	
+	
+	
+}
+
+
+
+.logo{width:38px;
+	height:38px;
+	
+	}
+
+.nav--1{
+	width:10%;
+}
+.nav--2{
+	width:60%;
+}
+.nav--3{
+	width:30%;
+	text-align: right;
+	color:black;
+}
+.nav--3 span{
+	color:black;
+}
+
+.navbar1__ul--li{
+	display:inline;
+	padding:0 0 0 100px;
+}
+.navbar1__ul--li a{
+	color:black;
+}
+.navbar1__ul--li:hover{
+	text-decoration: line-through;
+	animation: xuathien 2s;
+}
+/****content2*******/
+
+
+.content2__contact{
+	color:black;
+	position: relative;
+	
+}
+
+.content2__contact span{
+	color:black;
+}
+.content2__contact h1{
+	color:#151515;
+	font-size:115px;
+	letter-spacing:-2.8615px;
+	line-height:115.1px;
+	font-weight: 500;
+}
+.baoquanhh1absolute{
+	height:115px
+}
+#h1duynhatabsolute{
+	position: absolute;
+	left:34%;
+}
+
+.mynameis{
+	display:grid;
+	grid-template-columns: 42% auto;
+	white-space: nowrap;
+	width:100%
+}
+.mynameisbenphai{
+	width:100%;
+}
+
+.here{
+	display:grid;
+	grid-template-columns: 63% auto;
+	white-space: nowrap;
+	width:100%
+	
+}
+.im{
+	display:grid;
+	grid-template-columns: 58% auto;
+	white-space: nowrap;
+	width:100%
+}
+.mynameis input{
+	padding:58px 0 20px 0   ;
+	text-align: center;
+	width:850px;
+	border:none;
+	background-color:transparent;
+	border-bottom: 0.3px solid black;
+	font-size:1.1em;
+}
+.here input{
+	padding:58px 0 20px 0   ;
+	text-align: center;
+	width:530px;
+	border:none;
+	background-color:transparent;
+	border-bottom: 0.3px solid black;
+	font-size:1.1em;
+}
+textarea{
+	padding:40px 0 20px 0   ;
+	text-align: center;
+	width:610px;
+	border:none;
+	background-color:transparent;
+	border-bottom: 0.3px solid black;
+	font-size:1.1em;
+}
+input,textarea{
+	color:black;
+}
+.buttoncirclesend{
+	 width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #efefef;
+  line-height: 200px;
+  text-align: center;
+  background: orange;
+	top:50px;
+	left:30%;
+	position: relative;
+	
+}
+.buttoncirclesend:hover{
+	transform: scale(0.93);
+	transition: transform 0.5s;
+}
+
+
+
+
