@@ -74,9 +74,9 @@ a{
 	background-size:contain;*/
 }
 .content1__navbar1{
-	height:200px;
+	height:100px;
 	width:100%;
-	position:fixed;
+	position:relative;
 	z-index: 10000000;
 }
 .paddingnoidunglai{
